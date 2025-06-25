@@ -6,7 +6,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0px 500px;
+    padding: 0px 300px;
     background-color: #1F2937;
 }
 
@@ -32,17 +32,19 @@ a {
     background-color: #1F2937;
     padding: 0px 500px;
     padding-top: 100px;
-    padding: 100px 500px 100px 500px;
+    padding: 100px 300px 100px 300px;
     gap: 60px;
+    flex-wrap: wrap;
 }
 
 .hero img {
-    min-width: 500px;
+    flex: 3;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
+    flex: 2;
 }
 
 .title {
@@ -62,7 +64,39 @@ a {
 button {
     background-color: #3882F6;
     border: none;
-    width: 80px;
+    width: 100px;
     height: 30px;
     border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 320px;
+    padding-bottom: 100px;
+}
+
+.info-header {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    font-size: 18px;
+}
+
+.card img {
+    width: 250px;
 }
