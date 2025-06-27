@@ -61,14 +61,19 @@ a {
     font-size: 18px;
 }
 
-button {
+.sign-up-btn-1,
+.sign-up-btn-2 {
     background-color: #3882F6;
-    border: none;
     width: 100px;
     height: 30px;
-    border-radius: 10px;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+.sign-up-btn-1 {
+    border: none;
 }
 
 .section-one {
@@ -101,7 +106,7 @@ button {
     width: 250px;
 }
 
-.quote-section {
+.section-two {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
@@ -120,4 +125,42 @@ button {
     margin: 0;
     font-size: 30px;
     font-weight: 700;
+}
+
+.section-three {
+    display: flex;
+    margin: 100px 280px;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.action-text,
+.sign-up-text {
+    color: white;
+    margin: 0;
+}
+
+.action-text {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.sign-up-text {
+    font-size: 18px;
+}
+
+.sign-up-btn-2 {
+    border-color: white;
+    border-style: solid;
+    margin-left: auto;
+    align-self: flex-end;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    color: white;
 }
