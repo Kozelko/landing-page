@@ -100,3 +100,24 @@ button {
 .card img {
     width: 250px;
 }
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 330px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.author {
+    align-self: flex-end;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+}
